@@ -66,7 +66,6 @@ c.execute("""CREATE TABLE IF NOT EXISTS Tax (
 
 conn.commit()
 
-
 class Register:
     @staticmethod
     def add_exchange(cashier_id, currency_from_id, currency_to_id, amount_to, commission, tax, full_amount, exchange_info):
